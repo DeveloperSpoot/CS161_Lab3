@@ -66,6 +66,7 @@
             LionTigerButton.TabIndex = 2;
             LionTigerButton.Text = "Lion Tiger %";
             LionTigerButton.UseVisualStyleBackColor = true;
+            LionTigerButton.Click += LionTigerButton_Click;
             // 
             // fruitStandButton
             // 

@@ -20,5 +20,11 @@ namespace CS161_Lab3
             Insurance_Cost form = new Insurance_Cost();
             form.Show();
         }
+
+        private void LionTigerButton_Click(object sender, EventArgs e)
+        {
+            Lion_and_Tiger form = new Lion_and_Tiger();
+            form.Show();
+        }
     }
 }
