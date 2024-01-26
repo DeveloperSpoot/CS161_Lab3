@@ -32,5 +32,25 @@ namespace CS161_Lab3
             Fruit_Stand form = new Fruit_Stand();
             form.Show();
         }
+
+        private void autoMobileButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void paintJobButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void propertyTaxButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void standiumSeatingButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

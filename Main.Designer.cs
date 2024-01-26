@@ -32,10 +32,10 @@
             insuranceCostButton = new Button();
             LionTigerButton = new Button();
             fruitStandButton = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            autoMobileButton = new Button();
+            paintJobButton = new Button();
+            propertyTaxButton = new Button();
+            standiumSeatingButton = new Button();
             SuspendLayout();
             // 
             // sentanceBuilderButton
@@ -78,51 +78,55 @@
             fruitStandButton.UseVisualStyleBackColor = true;
             fruitStandButton.Click += fruitStandButton_Click;
             // 
-            // button5
+            // autoMobileButton
             // 
-            button5.Location = new Point(231, 19);
-            button5.Name = "button5";
-            button5.Size = new Size(127, 23);
-            button5.TabIndex = 4;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            autoMobileButton.Location = new Point(231, 19);
+            autoMobileButton.Name = "autoMobileButton";
+            autoMobileButton.Size = new Size(127, 23);
+            autoMobileButton.TabIndex = 4;
+            autoMobileButton.Text = "Automobile Costs";
+            autoMobileButton.UseVisualStyleBackColor = true;
+            autoMobileButton.Click += autoMobileButton_Click;
             // 
-            // button6
+            // paintJobButton
             // 
-            button6.Location = new Point(231, 82);
-            button6.Name = "button6";
-            button6.Size = new Size(127, 23);
-            button6.TabIndex = 5;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            paintJobButton.Location = new Point(231, 82);
+            paintJobButton.Name = "paintJobButton";
+            paintJobButton.Size = new Size(127, 23);
+            paintJobButton.TabIndex = 5;
+            paintJobButton.Text = "Paint Job Estimator";
+            paintJobButton.UseVisualStyleBackColor = true;
+            paintJobButton.Click += paintJobButton_Click;
             // 
-            // button7
+            // propertyTaxButton
             // 
-            button7.Location = new Point(231, 141);
-            button7.Name = "button7";
-            button7.Size = new Size(127, 23);
-            button7.TabIndex = 6;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
+            propertyTaxButton.Location = new Point(231, 141);
+            propertyTaxButton.Name = "propertyTaxButton";
+            propertyTaxButton.Size = new Size(127, 23);
+            propertyTaxButton.TabIndex = 6;
+            propertyTaxButton.Text = "Property Tax";
+            propertyTaxButton.UseVisualStyleBackColor = true;
+            propertyTaxButton.Click += propertyTaxButton_Click;
             // 
-            // button8
+            // standiumSeatingButton
             // 
-            button8.Location = new Point(231, 202);
-            button8.Name = "button8";
-            button8.Size = new Size(127, 23);
-            button8.TabIndex = 7;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
+            standiumSeatingButton.Location = new Point(231, 202);
+            standiumSeatingButton.Name = "standiumSeatingButton";
+            standiumSeatingButton.Size = new Size(127, 23);
+            standiumSeatingButton.TabIndex = 7;
+            standiumSeatingButton.Text = "Stadium Seating";
+            standiumSeatingButton.UseVisualStyleBackColor = true;
+            standiumSeatingButton.Click += standiumSeatingButton_Click;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(411, 249);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
+            Controls.Add(standiumSeatingButton);
+            Controls.Add(propertyTaxButton);
+            Controls.Add(paintJobButton);
+            Controls.Add(autoMobileButton);
             Controls.Add(fruitStandButton);
             Controls.Add(LionTigerButton);
             Controls.Add(insuranceCostButton);
@@ -138,9 +142,9 @@
         private Button insuranceCostButton;
         private Button LionTigerButton;
         private Button fruitStandButton;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Button autoMobileButton;
+        private Button paintJobButton;
+        private Button propertyTaxButton;
+        private Button standiumSeatingButton;
     }
 }
