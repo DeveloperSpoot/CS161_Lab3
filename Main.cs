@@ -26,5 +26,11 @@ namespace CS161_Lab3
             Lion_and_Tiger form = new Lion_and_Tiger();
             form.Show();
         }
+
+        private void fruitStandButton_Click(object sender, EventArgs e)
+        {
+            Fruit_Stand form = new Fruit_Stand();
+            form.Show();
+        }
     }
 }

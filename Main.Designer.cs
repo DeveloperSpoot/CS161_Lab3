@@ -76,6 +76,7 @@
             fruitStandButton.TabIndex = 3;
             fruitStandButton.Text = "Fruit Stand";
             fruitStandButton.UseVisualStyleBackColor = true;
+            fruitStandButton.Click += fruitStandButton_Click;
             // 
             // button5
             // 
