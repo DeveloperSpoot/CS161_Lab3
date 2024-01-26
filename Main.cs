@@ -14,5 +14,11 @@ namespace CS161_Lab3
             Sentence_Builder form = new Sentence_Builder();
             form.Show();
         }
+
+        private void insuranceCostButton_Click(object sender, EventArgs e)
+        {
+            Insurance_Cost form = new Insurance_Cost();
+            form.Show();
+        }
     }
 }

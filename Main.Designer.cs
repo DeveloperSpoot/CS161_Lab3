@@ -56,6 +56,7 @@
             insuranceCostButton.TabIndex = 1;
             insuranceCostButton.Text = "Insurance Cost?";
             insuranceCostButton.UseVisualStyleBackColor = true;
+            insuranceCostButton.Click += insuranceCostButton_Click;
             // 
             // LionTigerButton
             // 
