@@ -35,7 +35,8 @@ namespace CS161_Lab3
 
         private void autoMobileButton_Click(object sender, EventArgs e)
         {
-
+            Automobile_Costs form = new Automobile_Costs();
+            form.Show();
         }
 
         private void paintJobButton_Click(object sender, EventArgs e)
