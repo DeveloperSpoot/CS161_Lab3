@@ -47,7 +47,8 @@ namespace CS161_Lab3
 
         private void propertyTaxButton_Click(object sender, EventArgs e)
         {
-
+            Property_Tax form = new Property_Tax();
+            form.Show();
         }
 
         private void standiumSeatingButton_Click(object sender, EventArgs e)
