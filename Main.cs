@@ -53,7 +53,8 @@ namespace CS161_Lab3
 
         private void standiumSeatingButton_Click(object sender, EventArgs e)
         {
-
+            Stadium_Seating form = new Stadium_Seating();
+            form.Show();
         }
     }
 }
