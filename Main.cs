@@ -41,7 +41,8 @@ namespace CS161_Lab3
 
         private void paintJobButton_Click(object sender, EventArgs e)
         {
-
+            Paint_Job_Estimator form = new Paint_Job_Estimator();
+            form.Show();
         }
 
         private void propertyTaxButton_Click(object sender, EventArgs e)
