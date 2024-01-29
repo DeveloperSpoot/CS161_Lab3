@@ -28,210 +28,199 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.loansTextBox = new System.Windows.Forms.TextBox();
-            this.insuranceTextBox = new System.Windows.Forms.TextBox();
-            this.gasTextBox = new System.Windows.Forms.TextBox();
-            this.oilTextBox = new System.Windows.Forms.TextBox();
-            this.tiresTextBox = new System.Windows.Forms.TextBox();
-            this.maintenanceTextBox = new System.Windows.Forms.TextBox();
-            this.clearButton = new System.Windows.Forms.Button();
-            this.exitButton = new System.Windows.Forms.Button();
-            this.displayLabel = new System.Windows.Forms.Label();
-            this.calculateButton = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            loansTextBox = new TextBox();
+            insuranceTextBox = new TextBox();
+            gasTextBox = new TextBox();
+            oilTextBox = new TextBox();
+            tiresTextBox = new TextBox();
+            maintenanceTextBox = new TextBox();
+            clearButton = new Button();
+            exitButton = new Button();
+            displayLabel = new Label();
+            calculateButton = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(88, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Monthly cost of loans";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(77, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(175, 21);
+            label1.TabIndex = 0;
+            label1.Text = "Monthly cost of loans";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(50, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Monthly cost of insurance";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(44, 66);
+            label2.Name = "label2";
+            label2.Size = new Size(208, 21);
+            label2.TabIndex = 1;
+            label2.Text = "Monthly cost of insurance";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(105, 153);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 21);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Monthly cost of gas";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(92, 121);
+            label3.Name = "label3";
+            label3.Size = new Size(160, 21);
+            label3.TabIndex = 2;
+            label3.Text = "Monthly cost of gas";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(112, 225);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 21);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Monthly cost of oil";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(98, 178);
+            label4.Name = "label4";
+            label4.Size = new Size(154, 21);
+            label4.TabIndex = 3;
+            label4.Text = "Monthly cost of oil";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(97, 307);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 21);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Monthly cost of tires";
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(85, 242);
+            label5.Name = "label5";
+            label5.Size = new Size(167, 21);
+            label5.TabIndex = 4;
+            label5.Text = "Monthly cost of tires";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(21, 380);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(234, 21);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Monthly cost of maintenance";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(18, 300);
+            label6.Name = "label6";
+            label6.Size = new Size(234, 21);
+            label6.TabIndex = 5;
+            label6.Text = "Monthly cost of maintenance";
             // 
             // loansTextBox
             // 
-            this.loansTextBox.Location = new System.Drawing.Point(318, 20);
-            this.loansTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.loansTextBox.Name = "loansTextBox";
-            this.loansTextBox.Size = new System.Drawing.Size(114, 26);
-            this.loansTextBox.TabIndex = 6;
-            this.loansTextBox.Text = "0.00";
+            loansTextBox.Location = new Point(278, 16);
+            loansTextBox.Name = "loansTextBox";
+            loansTextBox.Size = new Size(100, 23);
+            loansTextBox.TabIndex = 6;
+            loansTextBox.Text = "0.00";
             // 
             // insuranceTextBox
             // 
-            this.insuranceTextBox.Location = new System.Drawing.Point(318, 86);
-            this.insuranceTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.insuranceTextBox.Name = "insuranceTextBox";
-            this.insuranceTextBox.Size = new System.Drawing.Size(114, 26);
-            this.insuranceTextBox.TabIndex = 7;
-            this.insuranceTextBox.Text = "0.00";
+            insuranceTextBox.Location = new Point(278, 68);
+            insuranceTextBox.Name = "insuranceTextBox";
+            insuranceTextBox.Size = new Size(100, 23);
+            insuranceTextBox.TabIndex = 7;
+            insuranceTextBox.Text = "0.00";
             // 
             // gasTextBox
             // 
-            this.gasTextBox.Location = new System.Drawing.Point(318, 156);
-            this.gasTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gasTextBox.Name = "gasTextBox";
-            this.gasTextBox.Size = new System.Drawing.Size(114, 26);
-            this.gasTextBox.TabIndex = 8;
-            this.gasTextBox.Text = "0.00";
+            gasTextBox.Location = new Point(278, 123);
+            gasTextBox.Name = "gasTextBox";
+            gasTextBox.Size = new Size(100, 23);
+            gasTextBox.TabIndex = 8;
+            gasTextBox.Text = "0.00";
             // 
             // oilTextBox
             // 
-            this.oilTextBox.Location = new System.Drawing.Point(318, 223);
-            this.oilTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.oilTextBox.Name = "oilTextBox";
-            this.oilTextBox.Size = new System.Drawing.Size(114, 26);
-            this.oilTextBox.TabIndex = 9;
-            this.oilTextBox.Text = "0.00";
+            oilTextBox.Location = new Point(278, 176);
+            oilTextBox.Name = "oilTextBox";
+            oilTextBox.Size = new Size(100, 23);
+            oilTextBox.TabIndex = 9;
+            oilTextBox.Text = "0.00";
             // 
             // tiresTextBox
             // 
-            this.tiresTextBox.Location = new System.Drawing.Point(318, 307);
-            this.tiresTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tiresTextBox.Name = "tiresTextBox";
-            this.tiresTextBox.Size = new System.Drawing.Size(114, 26);
-            this.tiresTextBox.TabIndex = 10;
-            this.tiresTextBox.Text = "0.00";
+            tiresTextBox.Location = new Point(278, 242);
+            tiresTextBox.Name = "tiresTextBox";
+            tiresTextBox.Size = new Size(100, 23);
+            tiresTextBox.TabIndex = 10;
+            tiresTextBox.Text = "0.00";
             // 
             // maintenanceTextBox
             // 
-            this.maintenanceTextBox.Location = new System.Drawing.Point(318, 377);
-            this.maintenanceTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.maintenanceTextBox.Name = "maintenanceTextBox";
-            this.maintenanceTextBox.Size = new System.Drawing.Size(114, 26);
-            this.maintenanceTextBox.TabIndex = 11;
-            this.maintenanceTextBox.Text = "0.00";
+            maintenanceTextBox.Location = new Point(278, 298);
+            maintenanceTextBox.Name = "maintenanceTextBox";
+            maintenanceTextBox.Size = new Size(100, 23);
+            maintenanceTextBox.TabIndex = 11;
+            maintenanceTextBox.Text = "0.00";
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(180, 528);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(86, 29);
-            this.clearButton.TabIndex = 12;
-            this.clearButton.Text = "Clear";
-            this.clearButton.UseVisualStyleBackColor = true;
-            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            clearButton.Location = new Point(158, 417);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new Size(75, 23);
+            clearButton.TabIndex = 12;
+            clearButton.Text = "Clear";
+            clearButton.UseVisualStyleBackColor = true;
+            clearButton.Click += clearButton_Click;
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.RosyBrown;
-            this.exitButton.Location = new System.Drawing.Point(295, 528);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(86, 29);
-            this.exitButton.TabIndex = 13;
-            this.exitButton.Text = "Exit";
-            this.exitButton.UseVisualStyleBackColor = false;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            exitButton.BackColor = Color.RosyBrown;
+            exitButton.Location = new Point(258, 417);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(75, 23);
+            exitButton.TabIndex = 13;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = false;
+            exitButton.Click += exitButton_Click;
             // 
             // displayLabel
             // 
-            this.displayLabel.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.displayLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.displayLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.displayLabel.Location = new System.Drawing.Point(50, 443);
-            this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(344, 51);
-            this.displayLabel.TabIndex = 14;
-            this.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            displayLabel.BackColor = SystemColors.ControlLight;
+            displayLabel.BorderStyle = BorderStyle.FixedSingle;
+            displayLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            displayLabel.Location = new Point(44, 350);
+            displayLabel.Name = "displayLabel";
+            displayLabel.Size = new Size(301, 41);
+            displayLabel.TabIndex = 14;
+            displayLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(71, 528);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(86, 29);
-            this.calculateButton.TabIndex = 15;
-            this.calculateButton.Text = "Calculate";
-            this.calculateButton.UseVisualStyleBackColor = true;
-            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
+            calculateButton.Location = new Point(62, 417);
+            calculateButton.Name = "calculateButton";
+            calculateButton.Size = new Size(75, 23);
+            calculateButton.TabIndex = 15;
+            calculateButton.Text = "Calculate";
+            calculateButton.UseVisualStyleBackColor = true;
+            calculateButton.Click += calculateButton_Click;
             // 
             // Automobile_Costs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 570);
-            this.Controls.Add(this.calculateButton);
-            this.Controls.Add(this.displayLabel);
-            this.Controls.Add(this.exitButton);
-            this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.maintenanceTextBox);
-            this.Controls.Add(this.tiresTextBox);
-            this.Controls.Add(this.oilTextBox);
-            this.Controls.Add(this.gasTextBox);
-            this.Controls.Add(this.insuranceTextBox);
-            this.Controls.Add(this.loansTextBox);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Automobile_Costs";
-            this.Text = "Automobile_Costs";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(407, 450);
+            Controls.Add(calculateButton);
+            Controls.Add(displayLabel);
+            Controls.Add(exitButton);
+            Controls.Add(clearButton);
+            Controls.Add(maintenanceTextBox);
+            Controls.Add(tiresTextBox);
+            Controls.Add(oilTextBox);
+            Controls.Add(gasTextBox);
+            Controls.Add(insuranceTextBox);
+            Controls.Add(loansTextBox);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "Automobile_Costs";
+            Text = "Automobile_Costs";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
