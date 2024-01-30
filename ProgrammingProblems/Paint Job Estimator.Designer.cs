@@ -71,7 +71,7 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(gallonsLabel);
-            groupBox1.Location = new Point(55, 133);
+            groupBox1.Location = new Point(54, 111);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(200, 51);
             groupBox1.TabIndex = 2;
@@ -90,7 +90,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(laborLabel);
-            groupBox2.Location = new Point(55, 190);
+            groupBox2.Location = new Point(54, 168);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(200, 51);
             groupBox2.TabIndex = 3;
@@ -109,7 +109,7 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(paintLabel);
-            groupBox3.Location = new Point(55, 247);
+            groupBox3.Location = new Point(54, 225);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(200, 51);
             groupBox3.TabIndex = 4;
@@ -128,7 +128,7 @@
             // groupBox4
             // 
             groupBox4.Controls.Add(laborChargesLabel);
-            groupBox4.Location = new Point(55, 304);
+            groupBox4.Location = new Point(54, 282);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(200, 51);
             groupBox4.TabIndex = 5;
@@ -148,7 +148,7 @@
             // 
             groupBox5.Controls.Add(totalLabel);
             groupBox5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            groupBox5.Location = new Point(55, 361);
+            groupBox5.Location = new Point(54, 339);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(200, 51);
             groupBox5.TabIndex = 6;
@@ -167,7 +167,7 @@
             // exitButton
             // 
             exitButton.BackColor = Color.RosyBrown;
-            exitButton.Location = new Point(118, 417);
+            exitButton.Location = new Point(159, 406);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(75, 23);
             exitButton.TabIndex = 7;
@@ -194,7 +194,7 @@
             // 
             // calculateButton
             // 
-            calculateButton.Location = new Point(118, 94);
+            calculateButton.Location = new Point(69, 407);
             calculateButton.Name = "calculateButton";
             calculateButton.Size = new Size(75, 23);
             calculateButton.TabIndex = 10;
